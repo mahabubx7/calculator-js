@@ -17,5 +17,10 @@
     "eol-last": "off",
     "prettier/prettier": ["error"]
   },
-  "ignorePatterns": ["dist/", "build/", "node_modules/"]
+  "ignorePatterns": [
+    "dist/",
+    "build/",
+    "node_modules/",
+    "./vite.config.js"
+  ]
 }
