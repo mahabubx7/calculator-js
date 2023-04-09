@@ -1,5 +1,102 @@
 $pageBackground: #ededed;
+$red: #ff4646;
+$hoverBg: #f4f3f3;
+$redSoft: #cf547d;
+$green: #3c9c66;
+$theme: #f58376;
+$containerBg: a;
 
 body {
   background-color: $pageBackground;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  width: calc(100% - 1rem);
+  margin: 1rem auto auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  // border: 1px solid salmon;
+
+  h1 {
+    color: $green;
+    span { color: $redSoft; }
+  }
+
+  // calculator
+  #calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid $theme;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.5rem 0.75rem 0.25rem rgba(0, 0, 0, 0.1);
+    min-height: 600px;
+    background-color: white;
+  }
+}
+
+#console {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $theme;
+  border-radius: 0.25rem;
+  width: 90%;
+
+  #inputs {
+    text-align: right;
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+
+  #output {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: 0.5rem;
+    color: $red;
+  }
+}
+
+#btn-container {
+  display: grid;
+  gap: 1.35rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid $theme;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+    color: #333;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      background-color: $hoverBg;
+      color: $theme;
+    }
+  }
+
+  #zero {
+    grid-column: auto / span 2;
+    border-radius: 1.5rem;
+    width: 152px;
+  }
 }
