@@ -1,16 +1,16 @@
+/* eslint-disable import/named */
 /* eslint-disable import/extensions */
 import './style.scss';
-// import javascriptLogo from './javascript.svg';
-// import viteLogo from '../../../../vite.svg';
-import setupCounter from './counter.js';
+import javascriptLogo from './javascript.svg';
+import setupCalculator from './calculator.js';
 
 document.querySelector('#app').innerHTML = `
   <div id="container">
     <div id="calculator">
-      <h1><span>Calculator</span> JS-App</h1>
+      <h1><span>Calculator</span> <img src="${javascriptLogo}" alt="js" /></h1>
       <span id=console>
-        <span id="inputs">1 + 2 + 5 + 2</span>
-        <span id="output">= <span>10</span></span>
+        <span id="inputs">0</span>
+        <span id="output">= <span>0</span></span>
       </span>
 
       <div id="btn-container">
@@ -38,4 +38,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `;
 
-setupCounter(document.querySelector('#counter'));
+setupCalculator(document.querySelector('#calculator'));

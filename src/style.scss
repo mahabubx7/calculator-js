@@ -25,6 +25,12 @@ body {
   h1 {
     color: $green;
     span { color: $redSoft; }
+
+    img {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+    }
   }
 
   // calculator
@@ -61,7 +67,8 @@ body {
     font-weight: 700;
     margin-left: auto;
     margin-right: 0.5rem;
-    color: $red;
+
+    span { color: $red; }
   }
 }
 
