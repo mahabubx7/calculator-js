@@ -16,10 +16,8 @@ jobs:
           node-version: '12.x'
       - name: Setup Lighthouse
         run: npm install -g @lhci/cli@0.7.x
-      - name: Install and build
-        run: npm install; npm run build;
       - name: Lighthouse Report
-        run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=./dist
+        run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=./src
   webhint:
     name: Webhint
     runs-on: ubuntu-22.04
