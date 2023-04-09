@@ -1,16 +1,14 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import './style.scss';
-import javascriptLogo from './javascript.svg';
+// import javascriptLogo from './javascript.svg';
 // import viteLogo from '../../../../vite.svg';
 import setupCounter from './counter.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">logo_</a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">js_logo</a>
     <h1>Hello Vite!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
