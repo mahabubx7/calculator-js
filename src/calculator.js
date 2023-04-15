@@ -8,6 +8,7 @@ function setupCalculator(element) {
   let consoleStr = '0';
   const resetConsoleStr = () => {
     // C
+    consoleStr = '0'; // reset
     element.querySelector('#console #inputs').innerHTML = `${consoleStr}`;
   };
 
