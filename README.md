@@ -136,7 +136,7 @@ Deployed in `Github Pages`. [Live Preview](https://calculator-js-mx7.netlify.app
 
 - GitHub: [@mahabubx7](https://github.com/mahabubx7)
 - Twitter: [@mahabub\_\_7](https://twitter.com/mahabub__7)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
+- LinkedIn: [in/mahabubx7](https://linkedin.com/in/mahabubx7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +154,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project... please give it a start.
+If you like this project... please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +162,7 @@ If you like this project... please give it a start.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank... microverse team.
+I would like to thank the collaborators who helped to built vite.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
