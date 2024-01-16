@@ -21,6 +21,8 @@
     "dist/",
     "build/",
     "node_modules/",
-    "./vite.config.js"
+    "./coverage",
+    "./vite.config.js",
+    "./jest.config.mjs"
   ]
 }

@@ -11,4 +11,13 @@ export default defineConfig(async () => ({
   build: {
     outDir: '../dist',
   },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: '@testing-library/jest-dom',
+    mockReset: true,
+    coverage: {
+      reportsDirectory: '../coverage',
+    },
+  },
 }));
